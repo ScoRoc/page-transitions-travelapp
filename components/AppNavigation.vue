@@ -1,8 +1,8 @@
 <template>
-  <header :class="{ 
-    'place' : (page === 'place'), 
-    'group' : (page === 'group'), 
-    'index' : (page === 'index') 
+  <header :class="{
+    'place' : (page === 'place'),
+    'group' : (page === 'group'),
+    'index' : (page === 'index')
   }">
 
     <transition-group name="bk" tag="div" class="bk-img">
